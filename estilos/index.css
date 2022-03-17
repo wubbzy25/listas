@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+} 
+body{
+    background:url(../imagenes/fondos/fondo.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.imagenes{
+    max-width: 300px;
+    max-height: 430px;
+    border-radius: 8px;
+}
+h1{ 
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: bold;
+    color: white;
+}
+.contenedor{
+    text-align: center;
+}
+.contenedor .carta{
+    transition: transform 0.5s ease-in-out;
+}
+
+.contenedor .carta:hover{
+    transform: translatey(-15px);
+}
+.carta{
+    margin: 70px;
+}
+.carta-1{
+    position: absolute;
+    top: 255px;
+}
+
+.carta-2{
+    position: absolute;
+    top: 230px; left: 25rem;
+}
+
+.carta-3{
+    position: absolute;
+    top: 255px; left: 50rem;
+}
+
+.parrafo{
+    font-family: 'Hubballi', cursive;
+    color: white;
+    position: relative;
+    top: -200px;
+    font-weight: bold;
+}
+.parrafo2{
+    font-family: 'Hubballi', cursive;
+    color: white;
+    position: relative;
+    top: -240px;
+    font-weight: bold;
+}
+
+.estudiantes{
+    position: relative;
+    top: -70px;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    color: #989D97;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
+.betplay{
+position: relative;
+top: -80px;
+text-decoration: none;
+font-family: 'Roboto Mono', monospace;
+color: #989D97;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
+.series{
+position: relative;
+top: -70px;
+text-decoration: none;
+font-family: 'Roboto Mono', monospace;
+color: #989D97;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}

@@ -1,0 +1,22 @@
+body{
+  background-color:#303134;             
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+  height: 20px;
+  position: relative;
+  top: 4px;
+}
+
+table{
+    position: absolute;
+   top: 5rem; left: 30%;
+   background-color: #202124;
+   border: 2px solid #202124;
+   border-radius: 10px;
+   color: white;
+}

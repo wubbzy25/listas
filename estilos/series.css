@@ -1,0 +1,16 @@
+
+
+img{
+    width: 200px;
+    max-height: auto;
+    padding: 10px;
+    position: relative;
+    top:10px ;
+}
+.avengers{
+    position:relative;
+}
+
+ul{
+    list-style-type: square;
+}
